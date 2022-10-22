@@ -1,4 +1,5 @@
 import Head from "next/head";
+import CircleAnimation from "../components/CircleAnimation";
 import Layout from "../components/Layout";
 
 export default function Home() {
@@ -13,7 +14,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Layout>
-        <h1>Home Page!</h1>
+        <CircleAnimation />
       </Layout>
     </>
   );

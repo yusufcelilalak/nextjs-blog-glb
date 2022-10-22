@@ -1,0 +1,30 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60vh;
+  aspect-ratio: 1.5/1;
+}
+
+.circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  background-color: var(--navbar-color);
+}
+
+.content {
+  color: var(--dark-text-color);
+  min-width: 12rem;
+  padding: 1rem;
+}
+
+@media (max-width: 900px) {
+  .container {
+    width: 90%;
+    height: 60vh;
+  }
+}

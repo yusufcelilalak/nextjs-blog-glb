@@ -7,6 +7,7 @@
   height: 6rem;
   flex-wrap: wrap;
   background-color: var(--navbar-color);
+  z-index: 1;
 }
 
 .navbar ul {
@@ -42,4 +43,18 @@ li.active {
 
 li.active a {
   font-weight: 600;
+}
+
+@media (max-width: 460px) {
+  .navbar ul li {
+    padding: 0 0.5rem 2.2rem 0.5rem;
+  }
+
+  .navbar ul li a {
+    font-size: medium;
+  }
+
+  .navbar {
+    height: 10rem;
+  }
 }
