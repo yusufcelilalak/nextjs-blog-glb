@@ -1,0 +1,36 @@
+.container {
+  display: flex;
+  padding: 1rem;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--navbar-color);
+  width: 50%;
+  min-height: 40rem;
+  border-radius: 1rem;
+}
+
+.form {
+  display: flex;
+  width: 70%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 2rem;
+}
+
+.inputs {
+  width: 100%;
+  border-color: yellow !important;
+  border-width: 1px;
+}
+
+.input_labels {
+  color: yellow !important;
+}
+
+.button {
+  align-self: flex-end;
+  width: 15rem;
+  height: 3rem;
+  font-weight: bold;
+}

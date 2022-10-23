@@ -1,4 +1,5 @@
 import Head from "next/head";
+import BlogForm from "../../components/BlogForm";
 import Layout from "../../components/Layout";
 
 const NewPost = () => {
@@ -11,7 +12,7 @@ const NewPost = () => {
       </Head>
 
       <Layout>
-        <h1>New Post Page!</h1>
+        <BlogForm />
       </Layout>
     </>
   );
