@@ -6,7 +6,9 @@
   width: 100%;
   height: 6rem;
   flex-wrap: wrap;
-  background-color: var(--navbar-color);
+  background-color: #ad365a;
+  box-shadow: 0 1px 5px -1px rgb(155, 155, 155);
+  color: var(--text-color);
   z-index: 1;
 }
 
@@ -29,7 +31,7 @@
 .navbar ul li a {
   text-decoration: none;
   font-weight: 400;
-  color: var(--dark-text-color);
+  color: var(--text-color);
   font-size: var(--font-medium);
 }
 
@@ -38,14 +40,27 @@
 }
 
 li.active {
-  border-bottom: black 2px solid;
+  border-bottom: var(--text-color) 2px solid;
 }
 
 li.active a {
   font-weight: 600;
 }
 
-@media (max-width: 460px) {
+@media (max-width: 480px) {
+  .logo {
+    height: 2rem;
+  }
+
+  .logo h1 {
+    font-size: 1.3rem;
+    margin: 0.5rem;
+  }
+
+  .navbar ul {
+    padding-bottom: 0.3rem;
+  }
+
   .navbar ul li {
     padding: 0 0.5rem 2.2rem 0.5rem;
   }
@@ -55,6 +70,6 @@ li.active a {
   }
 
   .navbar {
-    height: 10rem;
+    max-height: 7rem;
   }
 }

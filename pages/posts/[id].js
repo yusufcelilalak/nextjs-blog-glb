@@ -1,8 +1,8 @@
 import Head from "next/head";
 import Layout from "../../components/Layout";
-import PostsLayout from "../../components/PostsLayout";
+import PostDetails from "../../components/PostDetails";
 
-const Posts = () => {
+const Post = (props) => {
   return (
     <>
       <Head>
@@ -12,10 +12,10 @@ const Posts = () => {
       </Head>
 
       <Layout>
-        <PostsLayout />
+        <PostDetails />
       </Layout>
     </>
   );
 };
 
-export default Posts;
+export default Post;

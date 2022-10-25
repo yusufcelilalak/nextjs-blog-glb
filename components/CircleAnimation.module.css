@@ -13,11 +13,13 @@
   width: 3rem;
   height: 3rem;
   border-radius: 50%;
-  background-color: var(--navbar-color);
+  background-color: #f4f3ee;
+  box-shadow: 0 0 5px 0.1px rgb(155, 155, 155);
 }
 
 .content {
   color: var(--dark-text-color);
+
   min-width: 12rem;
   padding: 1rem;
 }

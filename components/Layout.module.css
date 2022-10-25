@@ -4,6 +4,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: var(--primary-color);
+  background-color: rgb(220, 204, 197);
   color: var(--text-color);
 }

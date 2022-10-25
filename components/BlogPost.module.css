@@ -1,0 +1,39 @@
+.post {
+  background-color: #f4f3ee;
+  color: black;
+  width: 22rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 5px 0.1px rgb(155, 155, 155);
+}
+
+.image {
+  width: 100%;
+  height: 22rem;
+  object-fit: cover;
+  border-radius: 10px 10px 0 0;
+  box-shadow: 0 1px 5px -1px rgb(155, 155, 155);
+}
+
+.title {
+  font-weight: 400;
+  font-size: 1.5rem;
+  color: rgb(40, 40, 40);
+}
+
+.text {
+  padding: 0.5rem;
+  color: rgb(40, 40, 40);
+}
+
+.post:hover {
+  cursor: pointer;
+}
+
+.image:hover {
+  filter: blur(1px);
+}

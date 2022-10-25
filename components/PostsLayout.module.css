@@ -1,0 +1,10 @@
+.layout {
+  width: 90%;
+  margin: 5rem 0;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(auto-fill, 22rem);
+  column-gap: 3rem;
+  row-gap: 5rem;
+  flex-wrap: wrap;
+}

@@ -4,6 +4,7 @@ import styles from "./BlogForm.module.css";
 const BlogForm = () => {
   return (
     <div className={styles.container}>
+      <div className={styles.title}>Add New Post</div>
       <form className={styles.form}>
         <TextField
           className={styles.inputs}
