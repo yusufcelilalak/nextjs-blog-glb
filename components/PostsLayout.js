@@ -5,7 +5,7 @@ const PostsLayout = (props) => {
   return (
     <div className={styles.layout}>
       {props.posts.map((post) => {
-        return <BlogPost post={post} />;
+        return <BlogPost key={post.id} post={post} />;
       })}
     </div>
   );
