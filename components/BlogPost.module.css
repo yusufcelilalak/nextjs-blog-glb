@@ -1,7 +1,7 @@
 .post {
   background-color: #f4f3ee;
   color: black;
-  width: 22rem;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;

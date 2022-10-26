@@ -8,3 +8,9 @@
   row-gap: 5rem;
   flex-wrap: wrap;
 }
+
+@media (max-width: 400px) {
+  .layout {
+    grid-template-columns: 100%;
+  }
+}
