@@ -8,7 +8,6 @@ const NewPost = () => {
       <Head>
         <title>New Post</title>
         <meta name="description" content="Creating new blog post." />
-        <meta name="viewport" content="width=1640" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 

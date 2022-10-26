@@ -7,6 +7,7 @@
   width: 50%;
   min-height: 40rem;
   border-radius: 1rem;
+  margin: 5rem 0;
 }
 
 .title {
@@ -33,12 +34,8 @@
 
 .inputs {
   width: 100%;
-  border-color: yellow !important;
+  z-index: 0;
   border-width: 1px;
-}
-
-.input_labels {
-  color: yellow !important;
 }
 
 .button {
@@ -52,5 +49,11 @@
 @media (max-width: 1200px) {
   .container {
     width: 90%;
+  }
+}
+
+@media (max-width: 400px) {
+  .button {
+    width: 100%;
   }
 }
